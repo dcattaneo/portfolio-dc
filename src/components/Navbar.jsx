@@ -4,10 +4,12 @@ import { FaBars, FaTimes, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { useDisableScroll } from "../hooks/useDisableScroll";
 
 export const Navbar = ({ language, handleLanguage }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  useDisableScroll({ nav });
 
   return (
     <div className="fixed w-full  flex justify-between items-center px-4  bg-[#0a192f] text-gray-300">
