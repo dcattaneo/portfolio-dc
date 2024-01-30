@@ -14,7 +14,7 @@ export const Home = ({ language }) => {
           {language ? "Frontend Developer" : "Desarrollador Web"}{" "}
         </h2>
         <div className="flex justify-center">
-          <p className=" text-[#8892b0] py-4 max-w-[700px] text-xs  sm:text-sm md:text-base tracking-wider   ">
+          <p className=" text-center sm:text-left text-[#8892b0] py-4 max-w-[700px] text-xs  sm:text-sm md:text-base tracking-wider ">
             {language
               ? "Having a degree in International Trade and knowledge in Sociology and History, I have decided to enter the field of Computer Science. Currently, i'm a Frontend Developer with more than 2 years experience working with React, Typescript and Node.js."
               : "Soy Licenciado en Comercio Internacional con conocimientos en Sociología e Historia y actualmente estudio Ciencias de la Computación. Trabajo como Desarrollador Web, y cuento con  más de 2 años de experiencia utilizando React, Typecript y Node.js."}
