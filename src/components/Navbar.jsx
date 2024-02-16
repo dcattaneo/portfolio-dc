@@ -113,7 +113,7 @@ export const Navbar = ({ language, handleLanguage }) => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://www.linkedin.com/in/diego-cattaneo-b046b1237"
+              href="https://www.linkedin.com/in/cattaneo-diego"
             >
               Linkedin <FaLinkedin size={30} />
             </a>

@@ -140,7 +140,7 @@ export const Contact = ({ language }) => {
               <a
                 className=" text-gray-300 "
                 target="_blank"
-                href="https://www.linkedin.com/in/diego-cattaneo-b046b1237"
+                href="https://www.linkedin.com/in/cattaneo-diego"
               >
                 <RiLinkedinLine size={20} />
               </a>
