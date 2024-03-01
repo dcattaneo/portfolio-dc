@@ -4,6 +4,9 @@ import crudMongo from "./../assets/crud-mongo.png";
 import endToEnd from "./../assets/end-to-end.png";
 import moviesApp from "./../assets/movies.png";
 import eCommerce from "./../assets/e-commerce.png";
+import notesApp from "./../assets/notes-railway.png";
+import crudSQL from "./../assets/crud-sql.png";
+import crudReactTs from "./../assets/crud-react-ts.png";
 
 export const Work = ({ language }) => {
   return (
@@ -26,6 +29,76 @@ export const Work = ({ language }) => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid item 1 */}
+          <div
+            style={{ backgroundImage: `url(${notesApp})` }}
+            className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="flex flex-col opacity-0 group-hover:opacity-100  ">
+              <span className="text-2xl font-bold text-white tracking-wider text-center">
+                Notes App - Railway
+              </span>
+
+              <div className="pt-8 text-center">
+                <a target="_blank" href="https://mysqlnotes.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-slate-900">
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid item 2 */}
+
+          <div
+            style={{ backgroundImage: `url(${crudSQL})` }}
+            className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="flex flex-col opacity-0 group-hover:opacity-100  ">
+              <span className="text-2xl font-bold text-white tracking-wider text-center">
+                CRUD-Express-SQL
+              </span>
+
+              <div className="pt-8 text-center">
+                <a
+                  target="_blank"
+                  href="https://github.com/dcattaneo/crud-node-mysql"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-slate-900">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid item 3 */}
+          <div
+            style={{ backgroundImage: `url(${crudReactTs})` }}
+            className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="flex flex-col opacity-0 group-hover:opacity-100  ">
+              <span className="text-2xl font-bold text-white tracking-wider text-center">
+                CRUD-React-TypeScript
+              </span>
+
+              <div className="pt-8 text-center">
+                <a
+                  target="_blank"
+                  href="https://github.com/dcattaneo/crud-react-ts"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-slate-900">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid item 4 */}
           <div
             style={{ backgroundImage: `url(${eCommerce})` }}
             className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -54,7 +127,7 @@ export const Work = ({ language }) => {
             </div>
           </div>
 
-          {/* Grid Item 2 */}
+          {/* Grid Item 5 */}
 
           <div
             style={{ backgroundImage: `url(${crudReact})` }}
@@ -63,7 +136,7 @@ export const Work = ({ language }) => {
             {/* Hover Effects */}
             <div className="flex flex-col opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider text-center ">
-                CRUD-React
+                CRUD-React-Tailwind
               </span>
 
               <div className="pt-8 text-center">
@@ -79,7 +152,7 @@ export const Work = ({ language }) => {
             </div>
           </div>
 
-          {/* Grid Item 3 */}
+          {/* Grid Item 6 */}
 
           <div
             style={{ backgroundImage: `url(${crudMongo})` }}
@@ -104,7 +177,7 @@ export const Work = ({ language }) => {
             </div>
           </div>
 
-          {/* Grid Item 4 */}
+          {/* Grid Item 7 */}
 
           <div
             style={{ backgroundImage: `url(${endToEnd})` }}
@@ -134,7 +207,7 @@ export const Work = ({ language }) => {
             </div>
           </div>
 
-          {/* Grid Item 5 */}
+          {/* Grid Item 8 */}
 
           <div
             style={{ backgroundImage: `url(${usersList})` }}
@@ -167,7 +240,7 @@ export const Work = ({ language }) => {
             </div>
           </div>
 
-          {/* Grid Item 6 */}
+          {/* Grid Item 9 */}
 
           <div
             style={{ backgroundImage: `url(${moviesApp})` }}
