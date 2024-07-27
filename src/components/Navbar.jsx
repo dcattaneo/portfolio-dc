@@ -45,7 +45,7 @@ export const Navbar = ({ language, handleLanguage }) => {
           </li>
           <li className="text-lg lg:text-xl">
             <Link to="work" smooth={true} duration={500}>
-              {language ? "Work" : "Proyectos"}
+              {language ? "Practices" : "Prácticas"}
             </Link>
           </li>
           <li className="text-lg lg:text-xl">
@@ -89,7 +89,7 @@ export const Navbar = ({ language, handleLanguage }) => {
 
           <li className="py-6 text-4xl">
             <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-              {language ? "Work" : "Proyectos"}
+              {language ? "Practices" : "Prácticas"}
             </Link>
           </li>
 
