@@ -24,7 +24,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
         </button>
         {/* handleLanguage Button */}
         <button
-          className="cursor-pointer justify-center items-center hover:text-slate-600 font-medium p-1"
+          className="cursor-pointer justify-center items-center  font-medium p-1"
           onClick={() => {
             handleLanguage();
           }}
