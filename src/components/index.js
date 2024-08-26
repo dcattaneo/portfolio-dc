@@ -1,7 +1,7 @@
-import { Home } from "./Home";
 import { Navbar } from "./Navbar";
-import { Contact } from "./Contact";
+import { Home } from "./Home";
 import { Skills } from "./Skills";
+import { Contact } from "./Contact";
 import { Work } from "./Work";
 import { Preload } from "./Preload";
 
