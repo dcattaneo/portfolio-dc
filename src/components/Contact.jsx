@@ -25,7 +25,7 @@ export const Contact = ({ language, isDark }) => {
           <p className={`text-4xl font-bold  border-b-2  inline ${!isDark ? "border-gray-700" : ""}`}>
             {language ? "Contact" : "Contacto"}
           </p>
-          <p className="pt-6">
+          <p className="pt-6 text-xs sm:text-sm md:text-base">
             {language
               ? `Submit the form below or send me an email to:
             diegocattaneo@hotmail.com.ar`
@@ -135,7 +135,7 @@ export const Contact = ({ language, isDark }) => {
           <ul className="flex gap-4   justify-center place-items-center  ">
             <li className=" h-[50px] duration-300   flex items-center  ">
               <a
-                className={`${!isDark ? "text-gray-700 " : "text-gray-200" }`}
+                className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="https://www.linkedin.com/in/cattaneo-diego"
               >
@@ -145,7 +145,7 @@ export const Contact = ({ language, isDark }) => {
 
             <li className=" h-[50px]  duration-300   rounded-md  flex items-center ">
               <a
-                className={`${!isDark ? "text-gray-700 " : "text-gray-200" }`}
+                className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="https://github.com/dcattaneo"
               >
@@ -154,7 +154,7 @@ export const Contact = ({ language, isDark }) => {
             </li>
             <li className="h-[50px]  duration-300   rounded-md  flex items-center ">
               <a
-                className={`${!isDark ? "text-gray-700 " : "text-gray-200" }`}
+                className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="mailto:diegocattaneo@hotmail.com.ar"
               >
@@ -163,7 +163,7 @@ export const Contact = ({ language, isDark }) => {
             </li>
             <li className="h-[50px]  duration-300   rounded-md  flex items-center ">
               <a
-                className={`${!isDark ? "text-gray-700 " : "text-gray-200" }`}
+                className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="CV_Cattaneo_Diego.pdf"
                 download="CV_Cattaneo_Diego.pdf"

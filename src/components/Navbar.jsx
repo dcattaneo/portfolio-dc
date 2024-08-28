@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBars, FaTimes, FaLinkedin, FaGithubSquare, FaMoon, } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { FiSun } from "react-icons/fi";
 import { IoMoonOutline } from "react-icons/io5";
 import { HiOutlineMail } from "react-icons/hi";
@@ -50,7 +50,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
           </li>
           <li className="text-lg lg:text-xl">
             <Link to="work" smooth={true} duration={500}>
-              {language ? "Practices" : "Prácticas"}
+              {language ? "Work" : "Proyectos"}
             </Link>
           </li>
           <li className="text-lg lg:text-xl">
@@ -92,7 +92,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
 
           <li className="py-6 text-xl">
             <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-              {language ? "Practices" : "Prácticas"}
+              {language ? "Work" : "Proyectos"}
             </Link>
           </li>
 

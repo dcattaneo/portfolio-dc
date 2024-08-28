@@ -11,7 +11,7 @@ export const Skills = ({ language, isDark }) => {
   return (
     <div
       name="skills"
-      className={`w-full h-full   pt-[100px] ${!isDark ? "text-gray-700 bg-gray-100" : "text-gray-100 bg-[#262626]"}`}
+      className={`w-full h-full   pt-[100px] ${!isDark ? "bg-gray-100 text-gray-700" : "text-gray-100 bg-[#262626]"}`}
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -19,7 +19,7 @@ export const Skills = ({ language, isDark }) => {
           <p className={`text-4xl font-bold inline border-b-2 ${!isDark ? "border-gray-700" : ""}`}>
             {language ? "Skills" : "Tecnologías"}
           </p>
-          <p className="py-6">
+          <p className="py-6 text-xs sm:text-sm md:text-base">
             {language
               ? "These are the technologies i've worked with"
               : "Estas son las tecnologías con las que he trabajado"}
