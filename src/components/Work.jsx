@@ -32,8 +32,8 @@ export const Work = ({ language, isDark }) => {
           <div style={{ backgroundImage: `url(${registerPic})` }}
             className={`  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto  ${!isDark ? "content-div text-gray-700 hover:text-gray-200" : "content-div-dark text-gray-200"}`}>
             {/* Hover Effects */}
-            <div className="flex flex-col opacity-0  group-hover:opacity-100    ">
-              <span className="text-2xl font-bold tracking-wider text-center">
+            <div className="flex flex-col opacity-0  group-hover:opacity-100">
+              <span className="text-2xl font-bold tracking-wider text-center select-none">
                 Chat-App - Backend
               </span>
 
@@ -92,7 +92,7 @@ export const Work = ({ language, isDark }) => {
             className={` shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto  ${!isDark ? "content-div text-gray-700 hover:text-gray-200" : "content-div-dark text-gray-200"}`}>
             {/* Hover Effects */}
             <div className="flex flex-col opacity-0  group-hover:opacity-100">
-              <span className="text-2xl font-bold tracking-wider text-center">
+              <span className="text-2xl font-bold tracking-wider text-center select-none">
                 Chat-App Frontend
               </span>
 

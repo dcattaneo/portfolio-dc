@@ -64,7 +64,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
       {/* Hamburger */}
       <div
         onClick={handleClick}
-        className="md:hidden z-30 cursor-pointer hover:text-slate-100"
+        className="md:hidden z-30 cursor-pointer"
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
