@@ -117,6 +117,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
               className={`flex justify-between items-center w-full ${!isDark ? "text-gray-300" : "text-[#fff]"}`}
               target="_blank"
               href="https://www.linkedin.com/in/cattaneo-diego"
+              rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -127,6 +128,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
               className={`flex justify-between items-center w-full ${!isDark ? "text-gray-300" : "text-[#fff]"}`}
               target="_blank"
               href="https://github.com/dcattaneo"
+              rel="noreferrer"
             >
               GitHub <FaGithubSquare size={30} />
             </a>
@@ -136,6 +138,7 @@ export const Navbar = ({ language, handleLanguage, isDark, handleDark }) => {
               className={`flex justify-between items-center w-full ${!isDark ? "text-gray-300" : "text-[#fff]"}`}
               target="_blank"
               href="mailto:diegocattaneo@hotmail.com.ar"
+              rel="noreferrer"
             >
               {language ? "E-mail" : "Correo"} <HiOutlineMail size={30} />
             </a>
