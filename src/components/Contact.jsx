@@ -138,6 +138,7 @@ export const Contact = ({ language, isDark }) => {
                 className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="https://www.linkedin.com/in/cattaneo-diego"
+                rel="noreferrer"
               >
                 <RiLinkedinLine size={20} />
               </a>
@@ -148,6 +149,7 @@ export const Contact = ({ language, isDark }) => {
                 className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="https://github.com/dcattaneo"
+                rel="noreferrer"
               >
                 <LuGithub size={20} />
               </a>
@@ -157,6 +159,7 @@ export const Contact = ({ language, isDark }) => {
                 className={`${!isDark ? "text-gray-700 " : "text-gray-200"}`}
                 target="_blank"
                 href="mailto:diegocattaneo@hotmail.com.ar"
+                rel="noreferrer"
               >
                 <HiOutlineMail size={20} />
               </a>
