@@ -460,13 +460,13 @@ export const Work = ({ language, isDark }) => {
             {/* Hover Effects */}
             <div className="flex flex-col">
               <span className="text-2xl font-bold tracking-wider text-center select-none">
-                End-To-End Testing
+                Landing-Template
               </span>
 
               <div className="pt-8 text-center ">
                 <a
                   target="_blank"
-                  href="https://testing-end-to-end.vercel.app"
+                  href="https://landing-template-dc.vercel.app/"
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2  border   ring-0  font-bold text-lg border-gray-400 ">
@@ -475,7 +475,7 @@ export const Work = ({ language, isDark }) => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/dcattaneo/testing-end-to-end"
+                  href="https://github.com/dcattaneo/landing-template"
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2  border   ring-0  font-bold text-lg border-gray-400 ">
